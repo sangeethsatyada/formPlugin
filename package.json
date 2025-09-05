@@ -2,15 +2,14 @@
   "name": "virtukart-formsangeeth",
   "version": "0.0.20",
   "description": "An attractive React login form with username, password, eye icon toggle, and company name",
-  "main": "dist/virtukart-form.umd.js",
-  "module": "dist/virtukart-form.es.js",
+
   "type": "module",
-  "exports": {
-    ".": {
-      "import": "./dist/virtukart-form.es.js",
-      "require": "./dist/virtukart-form.umd.js"
-    }
-  },
+  "main": "./dist/virtukart-form.umd.js",
+"module": "./dist/virtukart-form.es.js",
+"exports": {
+  ".": "./dist/virtukart-form.es.js"
+},
+
   "files": [
     "dist"
   ],
