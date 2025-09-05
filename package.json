@@ -1,0 +1,41 @@
+{
+  "name": "virtukart-formsangeeth",
+  "version": "0.0.20",
+  "description": "An attractive React login form with username, password, eye icon toggle, and company name",
+  "main": "dist/virtukart-form.umd.js",
+  "module": "dist/virtukart-form.es.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/virtukart-form.es.js",
+      "require": "./dist/virtukart-form.umd.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "publish": "npm publish --access public",
+    "pack": "npm pack"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "@vitejs/plugin-react": "^5.0.0",
+    "eslint": "^9.11.1",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.12",
+    "globals": "^15.9.0",
+    "vite": "^5.4.8"
+  },
+  "author": "Sangeeth Satyada",
+  "license": "ISC",
+  "keywords": ["react", "login", "form", "component", "javascript", "tailwindcss"]
+}
